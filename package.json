@@ -1,11 +1,27 @@
 {
-  "name": "restful-api",
+  "name": "base-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Base API Template",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "author": "Miguel Esparza MikeDaVinci",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikedavinci/base-api.git"
+  },
+  "author": "Miguel Esparza Jr aka MikeDaVinci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikedavinci/base-api/issues"
+  },
+  "homepage": "https://github.com/mikedavinci/base-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^4.6.6"
+  }
 }
